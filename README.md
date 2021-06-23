@@ -30,3 +30,7 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 `opacity` - Valor que vai de 0 á 1 sendo 0.5 equivalente a sua metade.
 
 `overflow` - Sobrepoe ao conteúdo se for posto um tamanho. Seu principal parâmetro é ´hidden´.
+
+`padding` - É o espaçamento interno do elemento.
+
+`margin` - É o espaçamento externo do elemento.
