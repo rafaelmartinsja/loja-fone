@@ -1,4 +1,4 @@
-#HTML5
+# HTML5
 
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
@@ -15,3 +15,18 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 ```
 <a href="https://collabcode.training">collabcode.training</a>
 ```
+
+
+# CSS
+
+É uma linguagem do estilo, isso quer dizer que ela tem a seguintes reponsabilidades:
+
+- Visual;
+
+`float` 
+- novo context
+- nunca conteúdo
+
+`opacity` - Valor que vai de 0 á 1 sendo 0.5 equivalente a sua metade.
+
+`overflow` - Sobrepoe ao conteúdo se for posto um tamanho. Seu principal parâmetro é ´hidden´.
