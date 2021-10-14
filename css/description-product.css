@@ -15,14 +15,26 @@
 
 .description-product > .item.-heart {
   position: absolute;
-  transform: translateX(-100%);
+  left: -85px;
   top: 8px;
-  left: -47px;
+  transition: all linear 250ms;
   cursor: pointer;
 }
 
-.item.-star:active {
-  transform: scale(0.9);
+.description-product > .item.-heart > img{
+  height: 33px;
+}
+
+.description-product > .item.-heart:hover {
+  transform: scale(1.25);
+}
+
+.item .-star:hover {
+  transform: scale(1.25);
+}
+
+.item .-star {
+  transition: all linear 250ms;
 }
 
 .description-product > .item.-star {
