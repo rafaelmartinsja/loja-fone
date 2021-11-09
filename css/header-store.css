@@ -32,7 +32,7 @@
 }
 
 .header-store [type="text"]::placeholder {
-  color: #fff;
+  color: inherit;
 }
 
 .header-store .action {
@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 1235px) {
+  .header-store {
+    margin-bottom: 70px;
+  }
+
   .header-store > .title {
     float: none;
     text-align: center;
