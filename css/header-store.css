@@ -84,7 +84,7 @@
 
   .header-store > .navigation {
     float: none;
-    text-align: :center;
+    text-align: center;
   }
 
   @media (max-width: 955px) {

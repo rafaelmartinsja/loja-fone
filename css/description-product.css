@@ -15,24 +15,44 @@
 
 .description-product > .item.-heart {
   position: absolute;
+  transform-origin: center;
   left: -85px;
   top: 8px;
   transition: all linear 250ms;
   cursor: pointer;
+  width: 33px;
+  height: 29px;
 }
 
 .description-product > .item.-active {
-  background-color: #fff;
+  background-color: #252c41;
 }
 
-.description-product .icon {
+.description-product .star .icon {
   transition: transform 200ms linear;
 } 
 
-.description-product .icon:hover {
+.description-product .star .icon:hover {
   transform: scale(1.2);
   transition: none;
-} 
+}
+
+.description-product .item .star .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .star .icon-active{
+  display: none;
+}
+
+.description-product > .item.-active .star .icon-active{
+  display: block;
+}
+
+.description-product .star {
+  display: inline-block;
+   margin-left: 7px;
+}
 
 .description-product > .item.-heart > img{
   height: 33px;
@@ -43,7 +63,7 @@
 }
 
 .item .-star:hover {
-  transform: scale(1.25);
+  transform: scale(1.25)
 }
 
 .item .-star {
@@ -52,10 +72,6 @@
 
 .description-product > .item.-star {
   margin-bottom: 10px;
-}
-
-.description-product > .item.-star + .item {
-  margin-left: 7px;
 }
 
 .description-product > .item.-info {

@@ -10,7 +10,7 @@
   transform: translateX(-50%) translateY(-50%);
   }
 
-  @media (width 1470px), (max-height: 952px) {
+  @media (width: 1470px), (max-height: 952px) {
     .container-store {
       max-width: 1330px;
       margin-left: auto;
@@ -19,7 +19,7 @@
 
   @media (max-width: 1310px) {
     .container-store {
-      padding-right: ;
+      padding: right;
     }
   }  
 
@@ -28,3 +28,4 @@
         display: none;
       }
   }
+}
