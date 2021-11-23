@@ -1,6 +1,7 @@
+[GitHub Pages](https://rafaelmartinsja.github.io/loja-fone/)
 # Comandos do Prompt
 
-Eu sempre quis usar alguns comandos do prompt de comando e como eu uso o wsl no windows instalei o wsl, mas tarde eu vou escrever sobre ele.
+Eu sempre quis usar comandos do prompt e como atualmente uso o wsl no windows, utilizei alguns e vou escrevendo e atualizando o post.
 
 ```
 rm
