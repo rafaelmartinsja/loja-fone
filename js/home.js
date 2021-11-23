@@ -1,4 +1,4 @@
-let valorInicial = 10;
+let valorInicial = 0;
 const $second = document.querySelector(".-second");
 
 $second.addEventListener("click", handleClick);

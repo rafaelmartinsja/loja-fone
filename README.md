@@ -1,8 +1,10 @@
 # Comandos do Prompt
 
-Eu quis usar alguns comandos do prompt de comando eu uso o wsl no windows, mas tarde eu vou sobre ele.
+Eu sempre quis usar alguns comandos do prompt de comando e como eu uso o wsl no windows instalei o wsl, mas tarde eu vou escrever sobre ele.
 
-´rm´
+```
+rm
+```
 
 ```
 rm arquivo.txt
@@ -27,25 +29,25 @@ rm -rf pasta (Esse eu uso muito, mas é perigoso porque ele sai deletando tudo.)
 Fonte:https://www.hostinger.com.br/tutoriais/como-deletar-arquivo-linux
 # Git (Que eu usei!)
 
-´git init´
+`git init`
 Inicia a versionalização do projeto, é o primeiro passo para ter o controle do mesmo.
 
-´git status´
+`git status`
 Faz parte do "ciclo" do git primeiro você faz a modificação e eu uso para ver como está a árvore.
 
-´git add .´
+`git add .`
 Após realizar a edição do arquivo ou dos arquivos eu preciso adcionar ele ao "processo" do git.
 
-´git commit´
+`git commit`
 Uso para adicionar cometário adciono o parâmeto -m "e a mensagem entre aspas duplas".
 
-´git pull´
+`git pull`
 Atualiza o fluxo de trabalho, eu uso quando preciso mudar a pasta de lugar.
 
-´git push´
+`git push`
 Serve para enviar os arquivos para o repositório remoto no meu caso o GitHub.
 
-´Além um pouco´
+`Além um pouco`
 Eu usei alguns comandos por conta de um erro meu na hora de organizar o projeto.
 
 Para remover um controle remoto: 

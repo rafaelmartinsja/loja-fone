@@ -24,11 +24,14 @@
   height: 29px;
 }
 
-.description-product > .item.-active {
-  background-color: #252c41;
+.description-product > .item.-heart.-active .icon {
+  fill: #252c41;
 }
 
 .description-product .star .icon {
+  fill: transparent;
+  stroke: #252c41;
+  stroke-width: 2;
   transition: transform 200ms linear;
 } 
 
@@ -54,12 +57,18 @@
    margin-left: 7px;
 }
 
-.description-product > .item.-heart > img{
+.description-product > .item.-heart > svg{
   height: 33px;
 }
 
 .description-product > .item.-heart:hover {
   transform: scale(1.25);
+}
+
+.item.-heart .icon {
+    fill: transparent;
+    stroke: #252c41;
+    stroke-width: 2;
 }
 
 .item .-star:hover {
