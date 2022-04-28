@@ -1,0 +1,9 @@
+[X] header
+[X]coração feioso
+[X]estrelas enfileiras
+[X]estrelas da mesma padrao
+[X]o carinho não começa com 0
+[]estrelas que pode ser selecionada.
+[]mobile
+
+https://github.com/rafaelmartinsja/loja-fone
